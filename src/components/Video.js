@@ -1,10 +1,13 @@
-import styles from "./Video.module.css";
-
 export default function Video() {
   return (
-    <p className={styles.video}>
-      ADICIONAR AQUI O VIDEO DO YOUTUBE:
-      https://www.youtube.com/watch?v=iYOK7qd8Phc&ab_channel=DESPERTARDIGITAL-ThiagoLima
-    </p>
+    <iframe
+      width="1280"
+      height="720"
+      src="https://www.youtube.com/embed/iYOK7qd8Phc"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   );
 }
