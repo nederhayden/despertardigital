@@ -1,6 +1,7 @@
 {
   "name": "shopmart",
   "version": "0.1.0",
+  "homepage": "shopmart/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
