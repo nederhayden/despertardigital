@@ -1,0 +1,10 @@
+.paragraphs p {
+  padding: 2.5rem 8rem;
+  font-size: 2rem;
+  text-align: justify;
+  text-indent: 8rem;
+}
+
+.paragraphs p:last-of-type {
+  padding-bottom: 6rem;
+}
