@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 
 export default function About() {
   return (
-    <p className={styles.about}>
+    <div className={styles.about}>
       SOBRE O CURSO... DESPERTAR DIGITAL (SEGREDOS DA RENDA ON-LINE) O CURSO é
       formado por 10 MÓDULOS + QUATRO MÓDULOS BÔNUS adicionais para quem comprar
       na abertura desta turma. O FOCO desse treinamento é ensinar a pessoa que
@@ -77,6 +77,6 @@ export default function About() {
       resultados. Qualquer referência ao desempenho de uma estratégia não deve
       ser interpretada como uma garantia de resultados” Sejam TODOS BEM VINDOS!
       CHEGOU A HORA DA MUDANÇA!
-    </p>
+    </div>
   );
 }

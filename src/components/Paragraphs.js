@@ -3,20 +3,23 @@ import styles from "./Paragraphs.module.css";
 export default function Paragraphs() {
   return (
     <div className={styles.paragraphs}>
-      <p>
-        APRENDA AGORA todas as ESTRATÉGIAS que eu utilizo para FATURAR mais de
-        R$ 100 Mil todos os meses, TRABALHANDO EM CASA apenas com o meu
-        COMPUTADOR!
-      </p>
-      <p>
-        EU MESMO gravei mais de 190 VÍDEO-AULAS, que podem levar QUALQUER
-        PESSOA, mesmo COMEÇANDO do ZERO ABSOLUTO e sem CONHECIMENTO a MUDAR
-        COMPLETAMENTE de VIDA.
-      </p>
-      <p>
-        O mais ATUALIZADO e COMPLETO CURSO do MERCADO que te ajudará a ALCANÇAR
-        a LIBERDADE!
-      </p>
+      <div>
+        <span>APRENDA AGORA</span> todas as <span>ESTRATÉGIAS</span> para você{" "}
+        <span>FATURAR</span> mais de <span>R$ 100 Mil</span> todos os meses,{" "}
+        <span>TRABALHANDO EM CASA</span> apenas com o seu{" "}
+        <span>COMPUTADOR</span>!
+      </div>
+      <div>
+        Mais de <span>190 VÍDEO-AULAS</span> gravadas, que podem levar{" "}
+        <span>QUALQUER PESSOA</span>, mesmo <span>COMEÇANDO</span> do{" "}
+        <span>ZERO ABSOLUTO</span> e sem <span>CONHECIMENTO</span>, a{" "}
+        <span>MUDAR COMPLETAMENTE</span> de <span>VIDA</span>.
+      </div>
+      <div>
+        O mais <span>ATUALIZADO</span> e <span>COMPLETO CURSO</span> do{" "}
+        <span>MERCADO</span> que te ajudará a <span>ALCANÇAR</span> a{" "}
+        <span>LIBERDADE</span>!
+      </div>
     </div>
   );
 }
