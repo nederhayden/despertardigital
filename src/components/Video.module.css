@@ -1,0 +1,15 @@
+.video {
+  margin: 2rem 0;
+}
+
+iframe {
+  width: 60%;
+  height: 50vh;
+}
+
+@media screen and (max-width: 1024px) {
+  iframe {
+    width: 90%;
+    height: 50vh;
+  }
+}
